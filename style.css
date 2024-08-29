@@ -1,0 +1,26 @@
+html {
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(128,0,209,1) 50%, rgba(199,0,255,1) 100%);
+    color: white;
+    height: 100%;
+    text-align: center;
+}
+
+h1 {
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+button {
+    background-color: blueviolet;
+    border-color: white;
+    color: white;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
