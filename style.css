@@ -1,12 +1,13 @@
 html {
-    background: rgb(2,0,36);
-    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(128,0,209,1) 50%, rgba(199,0,255,1) 100%);
     color: white;
     height: 1080px;
     text-align: center;
     align-items: center;
 }
-
+body{
+    background: rgb(2,0,36);
+    transition: background 1s ease;
+}
 h1 {
     text-shadow: 2px 2px black;
     font-weight: bold;
@@ -24,6 +25,7 @@ button {
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 a {
@@ -41,4 +43,64 @@ a {
     border-style: solid;
     border-width: 4px;
     border-color: white;
+}
+
+#twitch:hover {
+    background-color: #6441a5; /* Twitch purple */
+    color: white;
+}
+
+#twitter1:hover, #twitter2:hover {
+    background-color: #1da1f2; /* Twitter blue */
+    color: white;
+}
+
+#youtube:hover {
+    background-color: #ff0000; /* YouTube red */
+    color: white;
+}
+
+#discord1:hover, #discord2:hover {
+    background-color: #7289da; /* Discord blue */
+    color: white;
+}
+
+#Github:hover {
+    background-color: #333; /* GitHub black */
+    color: white;
+}
+
+#project:hover {
+    background-color: #560071; /* GitHub black */
+    color: white;
+}
+
+#twitch {
+    background-color: #482e77; /* Twitch purple */
+    color: white;
+}
+
+#twitter1, #twitter2 {
+    background-color: #1884c7; /* Twitter blue */
+    color: white;
+}
+
+#youtube {
+    background-color: #ad0000; /* YouTube red */
+    color: white;
+}
+
+#discord1, #discord2{
+    background-color: #53639d; /* Discord blue */
+    color: white;
+}
+
+#Github {
+    background-color: #1b1b1b; /* GitHub black */
+    color: white;
+}
+
+#project {
+    background-color: #360146; /* GitHub black */
+    color: white;
 }
